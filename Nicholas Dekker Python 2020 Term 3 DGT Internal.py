@@ -1,5 +1,8 @@
 #Nicholas Dekker DGT Python Internal
 
+# Question List
+questionone = "Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?"
+
 #Age Requirement
 answer = input("Before you take this quiz first please let us know if you are between the ages of 8 and 13? Only input your answer as Yes or No: ")
 if answer == "yes" or answer == "Yes":
