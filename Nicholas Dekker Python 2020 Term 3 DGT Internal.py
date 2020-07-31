@@ -1,7 +1,9 @@
 #Nicholas Dekker DGT Python Internal
 
 # Question List
-questionone = "Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?"
+questionone = "You find out someone has posted an embarrasing picture of you online. What should you do?"
+questiontwo = "You want to join an online gaming site. Which of the following information is ok for you to post on the site?"
+questionthree = "Someone in your class is a real bully. Some of the people in your class say: Let's get them back, and spam them with random texts. What do you reply?"
 
 #Age Requirement
 answer = input("Before you take this quiz first please let us know if you are between the ages of 8 and 13? Only input your answer as Yes or No: ")
@@ -24,7 +26,7 @@ print(f"Hello {name}. The Quiz begins now!")
 
 #Questions 1-3
 score = 0
-print("Question 1: You find out someone has posted an embarrasing picture of you online. What should you do?\n")
+print(questionone)
 answerCorrect = False
 maxTrys = 3
 while not answerCorrect and maxTrys > 0:
@@ -44,7 +46,7 @@ while not answerCorrect and maxTrys > 0:
             print("Incorrect, Try Again? [{} Chances Remaining]".format(maxTrys - 1)) 
             
 
-print("Question 2: You want to join an online gaming site. Which of the following information is ok for you to post on the site?\n")
+print(questiontwo)
 answerCorrect = False
 maxTrys = 3
 while not answerCorrect and maxTrys > 0: 
@@ -65,7 +67,7 @@ while not answerCorrect and maxTrys > 0:
             
 
 
-print("Question 3: Someone in your class is a real bully. Some of the people in your class say: Let's get them back, and spam them with random texts. What do you reply?\n")
+print(questionthree)
 answerCorrect = False
 maxTrys = 3
 while not answerCorrect and maxTrys > 0:
